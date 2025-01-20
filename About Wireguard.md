@@ -11,7 +11,7 @@ WireGuard is VPN Protocol that aims to be lighter, simpler, and easier to set up
 * Android
 * and so much more!
 
-For those interested in the potential use-cases of WireGuard for developing applications, there are libraries that can be used to embed the WireGuard protocol into all of the above operating systems and platforms. More information can be found out about that [here](https://www.wireguard.com/embedding/).
+For those interested in the potential uses of WireGuard for developing applications, there are libraries that can be used to embed the WireGuard protocol into all of the above operating systems and platforms. More information can be found out about that [here](https://www.wireguard.com/embedding/).
 
 ## What WireGuard Offers
 

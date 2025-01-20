@@ -1,6 +1,6 @@
 # Network Topologies
 
-When setting up a network, it's important for any administrator to select a network that is in line with their goals. Do you want centralized control that allows you to manage all of your machines from a single hub or do you prefer allowing every machine to talk to every other machine? How flexible and fault tolerant do you need the environment to be?
+When setting up a network, it's important for any administrator to select a network that is in line with their goals. Do you want centralized control that enables you to manage all of your machines from a single hub or do you prefer enabling every machine to talk to every other machine? How flexible and fault tolerant do you need the environment to be?
 
 When trying to make these judgement calls, it can be helpful to understand some of the options you might deploy.
 
@@ -38,7 +38,7 @@ In a Hub and Spoke Network, there is a central hub that acts as the link that bi
 
 This method is far easier to set up and manage because once you have set up one spoke to talk the hub, each added spoke just needs a connection to the hub. Furthermore, A hub and spoke topology doesn't care about network segregation. As long as the Hub has a public IP address that is accessible to all of the spokes, then each node can communicate by using the [hole punching](https://en.wikipedia.org/wiki/Hole_punching_(networking)) properties of the hub.
 
-The Hub and Spoke network has one major issue, and that is that the hub acts as a single point of failure. If the machine hosting "node A" goes down, none of the machines will be able to communicate.
+The Hub and Spoke network has one major issue, and that is that the hub acts as a single point of failure. If the machine hosting "node A" goes down, none of the machines can communicate.
 
 ## Hybrid Topology
 
